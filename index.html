@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/libraries/lib.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <meta name="keywords" content="Укладка тротуарной плитки Мелитополь от 300₽. Аренда строительных инструментов Мелитополь. Аренда бетономешалки Мелитополь от 500₽. Аренда виброноги Мелитополь от 1500₽. Аренда виброплиты Мелитополь от 1000₽."/>
+    <meta name="description" lang="ru" content="Укладка тротуарной плитки от 300₽. Аренда бетономешалки от 500₽. Аренда виброноги от 1500₽. Аренда виброплиты от 1000₽.">
+    <title>Строительные услуги - укладка тротуарной плитки, аренда бетономешалки, аренда виброноги, аренда виброплиты.</title>
+    <link rel="icon" href="img/icon.png">
+</head>
+<body>
+    <div class="submit-application" style="display: none;">
+    <div class="submit-application__title">Оставить заявку</div>
+    <form class="form submit-application-form" method="#" action="#">
+        <input type="text" class="form__input" name="name" placeholder="Ваше имя">
+        <input type="phone" class="form__input" name="phone" placeholder="Ваш номер телефона">
+        <textarea class="form__textarea" name="review" placeholder="Дополнительный текст (не обязательно)"></textarea>
+
+
+        <div class="submit-application-select">
+            <div class="submit-application-select__title">Ваш выбор: <span class="color">0</span></div>
+            <div class="blocks submit-application-select__blocks">
+                <div class="block" data-slide="0">
+                    <div class="block__icon">
+                        <img src="img/icons/tile.png" alt="">
+                    </div>
+                    <h1 class="block__title">Укладка тротуарной плитки</h1>
+                </div>
+
+                <div class="block" data-slide="1">
+                    <div class="block__icon">
+                        <img src="img/icons/mixer.png" alt="">
+                    </div>
+                    <h1 class="block__title">Бетономешалка</h1>
+                </div>
+
+                <div class="block" data-slide="2">
+                    <div class="block__icon">
+                        <img src="img/icons/vibro_leg.png" alt="">
+                    </div>
+                    <h1 class="block__title">Вибронога</h1>
+                </div>
+
+                <div class="block" data-slide="3">
+                    <div class="block__icon">
+                        <img src="img/icons/vibro_plate.png" alt="">
+                    </div>
+                    <h1 class="block__title">Виброплита</h1>
+                </div>
+            </div>
+        </div>
+        
+
+        <button class="form__btn btn">Отправить</button>
+    </form>
+</div>
+    <header class="header">
+    <div class="header-top">
+        <div class="header-top__container">
+            <div class="header__logo logo">
+                <img src="img/icon-logo.png" alt="Логотип plitkamlt">
+                <h1>Укладка тротуарной плитки <br> Аренда строительных инструментов</h1>
+            </div>
+
+            <div class="contacts header__contacts">
+                <a href="tel:+79900336540" class="contacts__phone phone"><span class="color">+7 (990)</span> 033-65-40</a>
+                <address class="contacts__address address">г. Мелитополь, Гетьмана Сагайдачного 270</address>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-bottom">
+        <div class="header-bottom__container">
+            <div class="header-info">
+                <div class="header-info__items">
+                    <p class="header-info__item title">Разнообразие <span class="color">стилей!</span></p>
+                    <p class="header-info__item title">Ваш выбор стиля, цвета и фактуры <span class="color">- безграничен!</span></p>
+                    <p class="header-info__item title"><span class="color">Палитры цветов</span> и текстур не знают границ!</p>
+                </div>
+            </div>
+
+            <div class="carousel-services">
+                <i class="fa-solid fa-angle-left carousel-services__prev"></i>
+
+                <div class="carousel-services__carousel">
+                    <div class="owl-carousel owl-carousel--services">
+                        <a href="#tile"><div class="owl-carousel__item" data-slide="0"></div></a>
+                        <a href="#mixer"><div class="owl-carousel__item" data-slide="1"></div></a>
+                        <a href="#vibro_leg"><div class="owl-carousel__item" data-slide="2"></div></a>
+                        <a href="#vibro_plate"><div class="owl-carousel__item" data-slide="3"></div></a>
+                    </div>
+                    <div class="carousel-services-dots">
+                        <span class="carousel-services-dot" data-slide="0"><img src="img/icons/tile.png" alt="Тротуарная плитка"></span>
+                        <span class="carousel-services-dot" data-slide="1"><img src="img/icons/mixer.png" alt="Бетономешалка"></span>
+                        <span class="carousel-services-dot" data-slide="2"><img src="img/icons/vibro_leg.png" alt="Вибронога"></span>
+                        <span class="carousel-services-dot" data-slide="3"><img src="img/icons/vibro_plate.png" alt="Виброплита"></span>
+                    </div>
+                </div>
+
+
+                <i class="fa-solid fa-angle-right carousel-services__next"></i>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="header__cover"></div>
+</header>
+
+
+    <main class="main">
+      <div class="cards" id="cards">
+    <div class="card" data-slide="0" id="tile">
+        <div class="card__container">
+            <div class="card__content">
+                <h1 class="card__title title">Укладка тротуарной плитки</h1>
+                <span class="card__price sub-title">300₽/кв./м</span>
+            </div>    
+            
+            <div class="gallery">
+            <a class="gallery__image" data-fancybox="gallery-tile" data-src="img/tile/1.jpg" data-caption="Уложенная тротурная плитка #1">
+                <img src="img/tile/1.jpg" alt="" />
+              </a>
+              
+              <a class="gallery__image" data-fancybox="gallery-tile" data-src="img/tile/2.jpg" data-caption="Уложенная тротурная плитка #2">
+                <img src="img/tile/2.jpg" alt="" />
+              </a>
+              
+              <a class="gallery__image" data-fancybox="gallery-tile" data-src="img/tile/3.jpg" data-caption="Уложенная тротурная плитка #3">
+                <img src="img/tile/3.jpg" alt="" />
+              </a>
+
+              <a class="gallery__image" data-fancybox="gallery-tile" data-src="img/tile/4.jpg" data-caption="Уложенная тротурная плитка #4">
+                <img src="img/tile/4.jpg" alt="" />
+              </a>
+
+              <a class="gallery__image" data-fancybox="gallery-tile" data-src="img/tile/5.jpg" data-caption="Уложенная тротурная плитка #5" style="display: none;">
+                <img src="img/tile/5.jpg" alt="" />
+              </a>
+
+              <a class="gallery__image" data-fancybox="gallery-tile" data-src="img/tile/6.jpg" data-caption="Уложенная тротурная плитка #6" style="display: none;">
+                <img src="img/tile/6.jpg" alt="" />
+              </a>
+
+              <a class="gallery__image" data-fancybox="gallery-tile" data-src="img/tile/7.jpg" data-caption="Уложенная тротурная плитка #7" style="display: none;">
+                <img src="img/tile/7.jpg" alt="" />
+              </a>
+
+              <a class="gallery__image" data-fancybox="gallery-tile" data-src="img/tile/8.jpg" data-caption="Уложенная тротурная плитка #8" style="display: none;">
+                <img src="img/tile/8.jpg" alt="" />
+              </a>
+            </div>
+
+            <button class="card__btn btn">Оставить заявку</button>
+        </div>
+    </div>
+
+    <div class="card" data-slide="1" id="mixer">
+        <div class="card__container">
+            <div class="card__content">
+                <h1 class="card__title title">Аренда бетономешалки</h1>
+                <span class="card__price sub-title">500₽/...</span>
+                <div class="card-characteristics">
+                    <div class="card-characteristics__item"><i class="fa-solid fa-plug-circle-bolt"></i> Мощность: 600Вт</div>
+                    <div class="card-characteristics__item"><i class="fa-solid fa-warehouse"></i> Вместимость: 150л</div>
+                   
+                </div>
+            </div>    
+            
+            <div class="gallery">
+                <a class="gallery__image" data-fancybox="gallery-mixer" data-src="img/mixer/1.jpg" data-caption="Бетономешалка #1">
+                    <img src="img/mixer/1.jpg" alt="" />
+                  </a>
+                  
+
+                  <a class="gallery__image" data-fancybox="gallery-mixer" data-src="img/mixer/2.jpg" data-caption="Бетономешалка #2" >
+                    <img src="img/mixer/2.jpg" alt="" />
+                  </a>
+
+                  <a class="gallery__image" data-fancybox="gallery-mixer" data-src="img/mixer/3.jpg" data-caption="Бетономешалка #3" >
+                    <img src="img/mixer/3.jpg" alt="" />
+                  </a>
+
+                      
+                  <a class="gallery__image" data-fancybox="gallery-mixer" data-src="img/mixer/4.jpg" data-caption="Бетономешалка #4" >
+                    <img src="img/mixer/4.jpg" alt="" />
+                  </a>
+
+                      
+                  <a class="gallery__image" data-fancybox="gallery-mixer" data-src="img/mixer/5.jpg" data-caption="Бетономешалка #5" style="display: none;">
+                    <img src="img/mixer/5.jpg" alt="" />
+                  </a>
+
+                      
+                  <a class="gallery__image" data-fancybox="gallery-mixer" data-src="img/mixer/6.jpg" data-caption="Бетономешалка #6" style="display: none;">
+                    <img src="img/mixer/6.jpg" alt="" />
+                  </a>
+
+                  <a class="gallery__image" data-fancybox="gallery-mixer" data-src="img/mixer/7.jpg" data-caption="Бетономешалка #7" style="display: none;">
+                    <img src="img/mixer/7.jpg" alt="" />
+                  </a>
+            </div>
+
+            <button class="card__btn btn">Оставить заявку</button>
+
+        </div>
+    </div>
+    
+    <div class="card" data-slide="2" id="vibro_leg">
+        <div class="card__container">
+            <div class="card__content">
+                <h1 class="card__title title">Аренда виброноги</h1>
+                <span class="card__price sub-title">1500₽/...</span>
+                <div class="card-characteristics">
+                    <div class="card-characteristics__item"><i class="fa-solid fa-gears card-characteristics__icon"></i> <span>Центробежная сила: 12,0 kH</span></div>
+                    <div class="card-characteristics__item"><i class="fa-solid fa-gears card-characteristics__icon"></i> <span>Частота ударов: 250-270 1/мин.</span></div>
+                    <div class="card-characteristics__item"><i class="fa-solid fa-gears card-characteristics__icon"></i> <span>Высота прыжков: 40-65 мм.</span></div>
+                    <div class="card-characteristics__item"><i class="fa-solid fa-gears card-characteristics__icon"></i> <span>Размер плиты: 275x330 мм</span></div>
+                    <div class="card-characteristics__item"><i class="fa-solid fa-gears card-characteristics__icon"></i> <span>Скорость: 10м./мин.</span></div>
+                    <div class="card-characteristics__item"><i class="fa-solid fa-gears card-characteristics__icon"></i> <span>Глубина уплотнение: 40 см.</span></div>
+                     <div class="card-characteristics__item"><i class="fa-solid fa-gears card-characteristics__icon"></i> <span>Вес: 83</span></div>
+                </div>
+            </div>    
+            
+            <div class="gallery">
+                <a class="gallery__image" data-fancybox="gallery-vibro-leg" data-src="img/vibro_leg/1.jpg" data-caption="Вибронога #1">
+                    <img src="img/vibro_leg/1.jpg" alt="" />
+                  </a>
+                  
+                  <a class="gallery__image" data-fancybox="gallery-leg" data-src="img/vibro_leg/2.jpg" data-caption="Вибронога #2">
+                    <img src="img/vibro_leg/2.jpg" alt="" />
+                  </a>
+                  
+                  <a class="gallery__image" data-fancybox="gallery-leg" data-src="img/vibro_leg/3.jpg" data-caption="Вибронога #3">
+                    <img src="img/vibro_leg/3.jpg" alt="" />
+                  </a>
+
+                  <a class="gallery__image" data-fancybox="gallery-leg" data-src="img/vibro_leg/4.jpg" data-caption="Вибронога #4">
+                    <img src="img/vibro_leg/4.jpg" alt="" />
+                  </a>
+
+                  <a class="gallery__image" data-fancybox="gallery-leg" data-src="img/vibro_leg/5.jpg" data-caption="Вибронога #5" style="display: none;">
+                    <img src="img/vibro_leg/5.jpg" alt="" />
+                  </a>
+
+                  <a class="gallery__image" data-fancybox="gallery-leg" data-src="img/vibro_leg/6.jpg" data-caption="Вибронога #6" style="display: none;">
+                    <img src="img/vibro_leg/6.jpg" alt="" />
+                  </a>
+                  <a class="gallery__image" data-fancybox="gallery-leg" data-src="img/vibro_leg/7.jpg" data-caption="Вибронога #7" style="display: none;">
+                    <img src="img/vibro_leg/7.jpg" alt="" />
+                  </a>
+                  <a class="gallery__image" data-fancybox="gallery-leg" data-src="img/vibro_leg/8.jpg" data-caption="Вибронога #8" style="display: none;">
+                    <img src="img/vibro_leg/8.jpg" alt="" />
+                  </a>
+                  <a class="gallery__image" data-fancybox="gallery-leg" data-src="img/vibro_leg/9.jpg" data-caption="Вибронога #9" style="display: none;">
+                    <img src="img/vibro_leg/9.jpg" alt="" />
+                  </a>
+                  <a class="gallery__image" data-fancybox="gallery-leg" data-src="img/vibro_leg/10.jpg" data-caption="Вибронога #10" style="display: none;">
+                    <img src="img/vibro_leg/10.jpg" alt="" />
+                  </a>
+                  <a class="gallery__image" data-fancybox="gallery-leg" data-src="img/vibro_leg/11.jpg" data-caption="Вибронога #11" style="display: none;">
+                    <img src="img/vibro_leg/11.jpg" alt="" />
+                  </a>
+                  <a class="gallery__image" data-fancybox="gallery-leg" data-src="img/vibro_leg/12.jpg" data-caption="Вибронога #12" style="display: none;">
+                    <img src="img/vibro_leg/12.jpg" alt="" />
+                  </a>
+                  <a class="gallery__image" data-fancybox="gallery-leg" data-src="img/vibro_leg/13.jpg" data-caption="Вибронога #13" style="display: none;">
+                    <img src="img/vibro_leg/13.jpg" alt="" />
+                  </a>
+                  <a class="gallery__image" data-fancybox="gallery-leg" data-src="img/vibro_leg/14.jpg" data-caption="Вибронога #14" style="display: none;">
+                    <img src="img/vibro_leg/14.jpg" alt="" />
+                  </a>
+            </div>
+
+
+            <button class="card__btn btn">Оставить заявку</button>
+        </div>
+    </div>
+
+
+    <div class="card" data-slide="3" id="vibro_plate">
+        <div class="card__container">
+            <div class="card__content">
+                <h1 class="card__title title">Аренда виброплиты</h1>
+                <span class="card__price sub-title">1000₽/...</span>
+                <div class="card-characteristics">
+                    <div class="card-characteristics__item"><i class="fa-solid fa-gears card-characteristics__icon"></i> <span>Тип: Пластина/темпер.</span></div>
+                    <div class="card-characteristics__item"><i class="fa-solid fa-gears card-characteristics__icon"></i> <span>Режим работы: Ручной.</span></div>
+                    <div class="card-characteristics__item"><i class="fa-solid fa-gears card-characteristics__icon"></i> <span>Запуск: Ручной.</span></div>
+                    <div class="card-characteristics__item"><i class="fa-solid fa-gears card-characteristics__icon"></i> <span>Центростремительная сила (кН): 12</span></div>
+                    <div class="card-characteristics__item"><i class="fa-solid fa-gears card-characteristics__icon"></i> <span>Шум: 108 дБ.</span></div>
+                    <div class="card-characteristics__item"><i class="fa-solid fa-gears card-characteristics__icon"></i> <span>Мощность: 3800 Вт.</span></div>
+                    <div class="card-characteristics__item"><i class="fa-solid fa-gears card-characteristics__icon"></i> <span>Скорость подачи: 25 м/мин.</span></div>
+                    <div class="card-characteristics__item"><i class="fa-solid fa-gears card-characteristics__icon"></i> <span>Тип топлива: Бензин.</span></div>
+                    <div class="card-characteristics__item"><i class="fa-solid fa-gears card-characteristics__icon"></i> <span>Вес: 78 кг.</span></div>
+                    <div class="card-characteristics__item"><i class="fa-solid fa-gears card-characteristics__icon"></i> <span>Топливный бак: 3,7 л.</span></div>
+                    <div class="card-characteristics__item"><i class="fa-solid fa-gears card-characteristics__icon"></i> <span>Длина пластины (мм): 600.</span></div>
+                    <div class="card-characteristics__item"><i class="fa-solid fa-gears card-characteristics__icon"></i> <span>Глубина уплотнения: 30 см.</span></div>
+                    <div class="card-characteristics__item"><i class="fa-solid fa-gears card-characteristics__icon"></i> <span>Ширина пластины (мм): 400.</span></div>
+                    <div class="card-characteristics__item"><i class="fa-solid fa-gears card-characteristics__icon"></i> <span>Дополнительная информация: Транспортные колеса.</span></div>
+                </div>
+            </div>    
+            
+            <div class="gallery">
+                <a class="gallery__image" data-fancybox="gallery-vibro-plate" data-src="img/vibro_plate/1.jpg" data-caption="Виброплита #1">
+                    <img src="img/vibro_plate/1.jpg" alt="" />
+                  </a>
+                  
+                  <a class="gallery__image" data-fancybox="gallery-plate" data-src="img/vibro_plate/2.jpg" data-caption="Виброплита #2">
+                    <img src="img/vibro_plate/2.jpg" alt="" />
+                  </a>
+                  
+                  <a class="gallery__image" data-fancybox="gallery-plate" data-src="img/vibro_plate/3.jpg" data-caption="Виброплита #3">
+                    <img src="img/vibro_plate/3.jpg" alt="" />
+                  </a>
+
+                  <a class="gallery__image" data-fancybox="gallery-plate" data-src="img/vibro_plate/4.jpg" data-caption="Виброплита #4">
+                    <img src="img/vibro_plate/4.jpg" alt="" />
+                  </a>
+
+                  <a class="gallery__image" data-fancybox="gallery-plate" data-src="img/vibro_plate/5.jpg" data-caption="Виброплита #5" style="display: none;">
+                    <img src="img/vibro_plate/5.jpg" alt="" />
+                  </a>
+
+                  <a class="gallery__image" data-fancybox="gallery-plate" data-src="img/vibro_plate/6.jpg" data-caption="Виброплита #6" style="display: none;">
+                    <img src="img/vibro_plate/6.jpg" alt="" />
+                  </a>
+
+                  <a class="gallery__image" data-fancybox="gallery-plate" data-src="img/vibro_plate/7.jpg" data-caption="Виброплита #7" style="display: none;">
+                    <img src="img/vibro_plate/7.jpg" alt="" />
+                  </a>
+                  <a class="gallery__image" data-fancybox="gallery-plate" data-src="img/vibro_plate/8.jpg" data-caption="Виброплита #8" style="display: none;">
+                    <img src="img/vibro_plate/8.jpg" alt="" />
+                  </a>
+                  <a class="gallery__image" data-fancybox="gallery-plate" data-src="img/vibro_plate/9.jpg" data-caption="Виброплита #9" style="display: none;">
+                    <img src="img/vibro_plate/9.jpg" alt="" />
+                  </a>
+                  <a class="gallery__image" data-fancybox="gallery-plate" data-src="img/vibro_plate/10.jpg" data-caption="Виброплита #10" style="display: none;">
+                    <img src="img/vibro_plate/10.jpg" alt="" />
+                  </a>
+                  <a class="gallery__image" data-fancybox="gallery-plate" data-src="img/vibro_plate/11.jpg" data-caption="Виброплита #11" style="display: none;">
+                    <img src="img/vibro_plate/11.jpg" alt="" />
+                  </a>
+                  <a class="gallery__image" data-fancybox="gallery-plate" data-src="img/vibro_plate/12.jpg" data-caption="Виброплита #12" style="display: none;">
+                    <img src="img/vibro_plate/12.jpg" alt="" />
+                  </a>
+            </div>
+
+
+            <button class="card__btn btn">Оставить заявку</button>
+        </div>
+    </div>
+
+</div>
+    </main>
+
+
+    <footer class="footer">
+    <div class="footer__container">
+        <div class="logo footer__logo">
+            <img src="img/icon-logo.png" alt="Логотип plitkamlt">
+            <h1>Укладка тротуарной плитки <br> Аренда строительных инструментов</h1>
+        </div>
+
+        <div class="contacts footer__contacts">
+            <a href="tel:+79900336540" class="contacts__phone phone"><span class="color">+7 (990)</span> 033-65-40</a>
+            <address class="address">г. Мелитополь, Гетьмана Сагайдачного 270</address>
+        </div>
+    </div>
+</footer>
+
+    <script src="js/libraries/lib.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
